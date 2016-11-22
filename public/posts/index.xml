@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts-rsses on WBearCorp</title>
+    <link>https://www.4-2.xyz/posts/index.xml</link>
+    <description>Recent content in Posts-rsses on WBearCorp</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Nov 2016 15:33:33 +0100</lastBuildDate>
+    <atom:link href="https://www.4-2.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Test de Hugo</title>
+      <link>https://www.4-2.xyz/posts/test-hugo/</link>
+      <pubDate>Wed, 09 Nov 2016 15:33:33 +0100</pubDate>
+      
+      <guid>https://www.4-2.xyz/posts/test-hugo/</guid>
+      <description>&lt;p&gt;Je test &lt;strong&gt;Hugo&lt;/strong&gt;, avec lequel je viens de faire ce site.&lt;/p&gt;
+
+&lt;p&gt;Ce site est entièrement stocké sur S3.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hugo&lt;/strong&gt; est un générateur de site static que j&amp;rsquo;ai décidé de tester.&lt;/p&gt;
+
+&lt;p&gt;Téléchargeable ici : &lt;a href=&#34;https://gohugo.io&#34;&gt;https://gohugo.io&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

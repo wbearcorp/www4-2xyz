@@ -1,0 +1,25 @@
+baseurl = "https://www.4-2.xyz"
+title = "WBearCorp"
+theme = "vec"
+languageCode = "en-us"
+paginate = 15
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
+
+[params]
+  Keywords = "wbearcorp, jeremy bunlon"
+  Description = "un site, et c'est deja bien"
+  
+  Avater = "images/white_bear.png"
+  SelfIntro = "Un petit espace de bidouilles sur AWS" 
+# Email = "wam@4-2.xyz"
+  
+  GithubID = "wbearcorp"
+  TwitterID = "wbearcorp"
+  LinkedInID = "jérémy-bunlon-3187074b"
+  
