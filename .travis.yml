@@ -4,7 +4,7 @@ script:
   - hugo
   - python --version
   - sudo pip install s3cmd
-  - s3cmd sync -v --delete-removed -M -r --access_key=$AK --secret_key=$SK public/ s3://www.4-2.xyz/
+  - s3cmd sync -v --delete-removed -M -P -r --access_key=$AK --secret_key=$SK public/ s3://www.4-2.xyz/
 notifications:
     email:
         on_failure: always
