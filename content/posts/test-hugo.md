@@ -4,11 +4,9 @@ draft = false
 date = "2016-11-09T15:33:33+01:00"
 +++
 
-Je test **Hugo**, avec lequel je viens de faire ce site.
+Je test **Hugo**, avec lequel je viens de faire ce site, entièrement stocké sur S3.
 
-Ce site est entièrement stocké sur S3.
-
-**Hugo** est un générateur de site static, qui peut etre utilisé pour des sites hébergé sur S3, GitHub, ou tout autre hebergement statique ou classique.
+**Hugo** est un générateur de site statique, qui peut etre utilisé pour des sites hébergé sur S3, GitHub, ou tout autre hebergement statique ou classique.
 
 Sa force ce situe sur l'utilisation complete en ligne de commande et la création de page (par exemple pour un blog) en markdown
 
