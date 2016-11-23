@@ -16,7 +16,7 @@ paginate = 15
   Description = "un site, et c'est deja bien"
   
   Avater = "images/white_bear.png"
-  SelfIntro = "Un petit espace de bidouilles sur AWS" 
+  SelfIntro = "Un petit espace de bidouilles" 
 # Email = "wam@4-2.xyz"
   
   GithubID = "wbearcorp"
