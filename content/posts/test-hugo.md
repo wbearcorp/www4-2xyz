@@ -8,6 +8,6 @@ Je test **Hugo**, avec lequel je viens de faire ce site.
 
 Ce site est entièrement stocké sur S3.
 
-**Hugo** est un générateur de site static que j'ai décidé de tester.
+**Hugo** est un générateur de site static, qui peut etre utilisé pour des sites hébergé sur S3, GitHub, 
 
 Téléchargeable ici : https://gohugo.io
