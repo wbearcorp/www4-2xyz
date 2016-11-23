@@ -8,6 +8,12 @@ Je test **Hugo**, avec lequel je viens de faire ce site.
 
 Ce site est entièrement stocké sur S3.
 
-**Hugo** est un générateur de site static, qui peut etre utilisé pour des sites hébergé sur S3, GitHub, 
+**Hugo** est un générateur de site static, qui peut etre utilisé pour des sites hébergé sur S3, GitHub, ou tout autre hebergement statique ou classique.
+
+Sa force ce situe sur l'utilisation complete en ligne de commande et la création de page (par exemple pour un blog) en markdown
+
+Ensuite, en ayant configuré le site, choisi le thme, etc... hugo permet de généré en sorti la version statique a publier.
+
+Si vous cumuler ça avec un github, un travis ci et un bucket S3 configuré en site statique, il suffit de créer un nouvel article, de le push sur github et travis s'occupe tout seul de la generation et de la publication du site ;-)
 
 Téléchargeable ici : https://gohugo.io
