@@ -4,10 +4,15 @@ go:
 install: go get -v github.com/spf13/hugo
 script:
   - hugo
-  - python --version
-  - sudo pip install s3cmd
-  - s3cmd sync -v --delete-removed -M -P -r --access_key=$AK --secret_key=$SK public/ s3://www.4-2.xyz/
+deploy:
+  provider: s3
+  access_key_id: $AK
+  secret_access_key: $SK
+  bucket: "www.4-2.xyz"
+  skip_cleanup: true
+  local_dir: public
+  region: "eu-west-1"
 notifications:
     email:
         on_failure: always
-	webhooks: https://outlook.office365.com/webhook/d3ef5129-90ad-44fd-8661-fb5e80b667fc@7d37f2bd-a1dc-4e2c-aaa3-c758dc77fff7/TravisCI/5057db0501ef4adb8a14f90ba0bfa425/8bb41ffa-714c-45c2-af93-7648595f6034
+    webhooks: https://outlook.office365.com/webhook/d3ef5129-90ad-44fd-8661-fb5e80b667fc@7d37f2bd-a1dc-4e2c-aaa3-c758dc77fff7/TravisCI/5057db0501ef4adb8a14f90ba0bfa425/8bb41ffa-714c-45c2-af93-7648595f6034
