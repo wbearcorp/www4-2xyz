@@ -1,7 +1,7 @@
 +++
 title = "aws efs backup to s3"
 draft = false
-date = "2016-11-24T14:00:00+01:00""
+date = "2016-11-24T14:00:00+01:00"
 +++
 
 Amazon Elastic File System fournit un stockage de fichiers simple et évolutif à utiliser avec les instances Amazon EC2 dans le cloud AWS. 
