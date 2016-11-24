@@ -2,14 +2,13 @@ language: go
 install: go get -v github.com/spf13/hugo
 script:
   - hugo
-deploy:
-  provider: s3
-  access_key_id: $AK
-  secret_access_key: $SK
-  bucket: "www.4-2.xyz"
-  skip_cleanup: true
-  local_dir: public
-  region: "eu-west-1"
+  - python --version
+  - pip install awscli
+  - AWS_DEFAULT_REGION="eu-west-1"
+  - AWS_ACCESS_KEY_ID=$AK
+  - AWS_SECRET_ACCESS_KEY=$SK
+  - aws s3 sync public/ s3://www.4-2.xyz/ --delete
+
 notifications:
     email:
         on_failure: always
