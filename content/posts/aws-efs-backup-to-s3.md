@@ -1,8 +1,7 @@
 ---
-comments: false
-date: 2016-11-24T14:00:00
-title: aws efs backup to s3
-toc: false
+date: "2016-11-24T14:00:00+01:00"
+title: "aws efs backup to s3"
+draft = false
 ---
 
 
