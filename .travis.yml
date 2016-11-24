@@ -3,7 +3,7 @@ install: go get -v github.com/spf13/hugo
 script:
   - hugo
   - python --version
-  - pip install awscli
+  - sudo pip install awscli
   - AWS_DEFAULT_REGION="eu-west-1"
   - AWS_ACCESS_KEY_ID=$AK
   - AWS_SECRET_ACCESS_KEY=$SK
