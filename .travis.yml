@@ -4,9 +4,9 @@ script:
   - hugo
   - python --version
   - sudo pip install awscli
-  - AWS_DEFAULT_REGION="eu-west-1"
-  - AWS_ACCESS_KEY_ID=$AK
-  - AWS_SECRET_ACCESS_KEY=$SK
+  - export AWS_DEFAULT_REGION="eu-west-1"
+  - export AWS_ACCESS_KEY_ID=$AK
+  - export AWS_SECRET_ACCESS_KEY=$SK
   - aws s3 sync public/ s3://www.4-2.xyz/ --delete
 
 notifications:
