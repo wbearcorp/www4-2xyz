@@ -20,7 +20,11 @@ Par contre dédié et payer une instance EC2 24/24 pour cela c'est pas viable, e
 Il est par contre possible de lancer selon une planification une instance EC2, qui monterait l'EFS et le backuperait soit sur du S3, doit sur un autre EFS, selon vos besoin.
 Avec potentiellement une rétention, etc..
 
-Pour se faire, le plus efficace est d'utiliser le service <i class="fa fa-cog" aria-hidden="true"></i> **AWS datapi Pipeline**
+Pour se faire, le plus efficace est d'utiliser le service :
+
+#### <i class="fa fa-cog" aria-hidden="true"></i> **AWS datapi Pipeline**
+
+<i class="fa fa-cog" aria-hidden="true"></i> **AWS datapi Pipeline** est un service Web qui  permet de traiter et de transférer des données de manière fiable entre différents services AWS de stockage et de calcul et vos sources de données sur site, selon des intervalles définis.
 Ce service permet de créer dans notre cas, un worflows très simple et réutilisable pour pleins d'autres tache:
 
 1- Créer une EC2 dans le bon sous reseau et le bon Security Group
