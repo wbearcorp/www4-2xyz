@@ -1,12 +1,12 @@
 +++
-title = "aws efs backup to s3"
+title = "AWS : How to backup EFS to S3"
 draft = false
 date = "2016-11-24T14:00:00+01:00"
 +++
 
-#### <i class="icon-hdd"></i> AWS Elastic File System
+#### <i class="fa fa-amazon" aria-hidden="true"></i> AWS Elastic File System
 
-**Amazon Elastic File System** fournit un stockage de fichiers simple et évolutif à utiliser avec les instances Amazon EC2 dans AWS. 
+<i class="fa fa-hdd-o" aria-hidden="true"></i> **Amazon Elastic File System** fournit un stockage de fichiers simple et évolutif à utiliser avec les instances Amazon EC2 dans AWS. 
 La capacité de stockage d'EFS est élastique : elle augmente ou diminue automatiquement au fur et à mesure que vous ajoutez et supprimez des fichiers.
 EFS se monte en NFS sur les instances, s'utilise au sein d'un VPC, avec plusieurs points de connexions possibles (par AZ) et la découverte des points de montage peut se faire pour les instances AWS via les metadata.
 
@@ -20,7 +20,7 @@ Par contre dédié et payer une instance EC2 24/24 pour cela c'est pas viable, e
 Il est par contre possible de lancer selon une planification une instance EC2, qui monterait l'EFS et le backuperait soit sur du S3, doit sur un autre EFS, selon vos besoin.
 Avec potentiellement une rétention, etc..
 
-Pour se faire, le plus efficace est d'utiliser le service **AWS DATA PIPELINE**
+Pour se faire, le plus efficace est d'utiliser le service <i class="fa fa-cog" aria-hidden="true"></i> **AWS datapi Pipeline**
 Ce service permet de créer dans notre cas, un worflows très simple et réutilisable pour pleins d'autres tache:
 
 1- Créer une EC2 dans le bon sous reseau et le bon Security Group
