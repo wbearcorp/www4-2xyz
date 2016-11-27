@@ -15,3 +15,6 @@ Ensuite, en ayant configuré le site, choisi le thme, etc... hugo permet de gén
 Si vous cumuler ça avec un github, un travis ci et un bucket S3 configuré en site statique, il suffit de créer un nouvel article, de le push sur github et travis s'occupe tout seul de la generation et de la publication du site ;-)
 
 Téléchargeable ici : https://gohugo.io
+
+Ca marche bien c'est cool
+et en plus c'est rapide 
