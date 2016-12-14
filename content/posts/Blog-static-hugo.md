@@ -1,7 +1,7 @@
 +++
 title = "Gérer un blog serverless avec Hugo, GithUb, Travis CI, slack, S3 et CloudFront"
 draft = false
-date = "2016-11-09T15:33:33+01:00"
+date = "2016-12-14T10:30:30+01:00"
 +++
 
 Comme indiqué précedemment, ce site est généré avec **Hugo**, et entièrement stocké sur **S3**
