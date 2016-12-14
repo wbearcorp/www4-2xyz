@@ -8,9 +8,9 @@ Comme indiqué précedemment, ce site est généré avec **Hugo**, et entièreme
 
 Les pages sont écrites en **MarkDown** et le tout est hébergé sur **GitHub** (https://github.com/wbearcorp/www4-2xyz)
 
-**Hugo**
-
 **Travis** est configuré pour vérifier chaque push ou pull sur **github** et un fichier yml a la racine du projet contient le code a éxécuter via **Travis**
+
+**hugo** génère le site a chaque nouvelle mise a jour.
 
 **Hugo** étant en go, **Travis** lance une instance go pour généré le site :
 
@@ -40,6 +40,6 @@ Le bucket **S3** est configuré en tant que hosting de site static, la page inde
 
 Et voilà!
 
-A chaque nouvelle page, un git push déclenche **Travis**, qui génère et publie le site, et préviens du résultat sur **Slack**.
+A chaque nouvelle page ou mise a jour, un git push upload les modifications sur **github**, déclenche **Travis**, qui génère via **hugo** le site et le publie sur **S3**, le iste est accessible au travers de **CloudFront**, et le résultat du déploiement est annoncé sur **Slack**.
 
 Pour le moment je suis seul a publié sur le site mais tous fonctionnerais de même si on était 2, 5 ou 22 a travailler en parallèle sur le blog ! 
