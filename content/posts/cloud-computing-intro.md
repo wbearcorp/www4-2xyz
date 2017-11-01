@@ -1,6 +1,6 @@
 +++
 title = "Cloud Computing [AWS] - Intro"
-draft = false
+draft = true
 date = "2017-02-13T15:15:15+01:00"
 +++
 
