@@ -5,21 +5,25 @@ languageCode = "en-us"
 paginate = 15
 
 [menu]
-  # Shown in the side menu.
   [[menu.main]]
     name = "posts"
-    weight = 0
-    url = "/posts"
+    url = "/post"
+    weight = 1
+  [[menu.main]]
+    name = "sketches"
+    url = "/sketch"
+    weight = 2
 
 [params]
   Keywords = "wbearcorp, jeremy bunlon"
   Description = "un site, et c'est deja bien"
-  
-  Avater = "images/white_bear.png"
-  SelfIntro = "Un petit espace de bidouilles" 
-# Email = "wam@4-2.xyz"
-  
-  GithubID = "wbearcorp"
-  TwitterID = "wbearcorp"
-  LinkedInID = "jérémy-bunlon-3187074b"
+  showHeader = true
+  showTags = true
+  debug = false
+  [params.colors]
+    post = "orangered"
+    posts = "gold"
+    page = "blue"
+    sketch = "limegreen"
+
   
