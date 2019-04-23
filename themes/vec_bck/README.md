@@ -18,22 +18,6 @@ git clone https://github.com/IvanChou/hugo-theme-vec vec
 
 See the [official docs](http://gohugo.io/themes/installing) for more information.
 
-## Quickstart Guide
-
-Make sure you have : 
-
-1. 	Hugo installed
-2. Test poject setup with hugo. Instructions on [hugo quickstart guide](https://gohugo.io/overview/quickstart/).
-3. Cloned this repo in the themes folder.  
-
-The [exampleSite](exampleSite) folder contains a sample site to quickly get started. 
-
-Copy over the contents of ```config.toml``` and copy the [content](exampleSite/content) and [static](exampleSite/static) folders to your main folder. 
-
-Build using ```hugo server --buildDrafts```  
-
-To create a post use ```hugo new post/post-title.md``` 
-
 ## Configuration
 
 You should config your site's `config.toml` file like:
@@ -55,7 +39,7 @@ googleAnalytics = "Your Google Analytics tracking code"
   Keywords = "key, 关键字, キーワード"
   Description = "There are some words to describe your site"
   
-  Avatar = "img/avatar.jpg"
+  Avater = "img/avatar.jpg"
   SelfIntro = "Just a worm, seek for true, live in shadow, no more..." 
   Email = "you@example.com"
   
@@ -104,11 +88,8 @@ hugo server -t vec
 ```
 
 
-## Design By
-
-Cedric Fung(@vecio)
-
 ## License
 
 Open sourced under [MIT license](https://github.com/IvanChou/hugo-theme-vec/blob/master/LICENSE.md).
+
 

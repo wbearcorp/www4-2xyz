@@ -3,8 +3,8 @@ title = "yii.im"
 theme = "vec"
 languageCode = "en-us"
 paginate = 10
-disqusShortname = ""
-googleAnalytics = ""
+disqusShortname = "yiiim"
+googleAnalytics = "UA-57408564-1"
 
 [menu]
   # Shown in the side menu.
@@ -20,14 +20,14 @@ googleAnalytics = ""
     name = "faq"
     weight = 2
     url = "/faq"
-
+    
 [params]
   Keywords = "key, 关键字, キーワード"
   Description = "There are some words to describe your site"
-  Avatar = "img/avatar.jpg"
-  SelfIntro = "Just a worm, seek for true, live in shadow, no more..."
+  Avater = "img/avatar.jpg"
+  SelfIntro = "Just a worm, seek for true, live in shadow, no more..." 
   Email = "yiichou@gmail.com"
-
+  
   GithubID = "Your Github ID"
   TwitterID = "Your Twitter ID"
   FacebookID = "Your Facebook ID"
