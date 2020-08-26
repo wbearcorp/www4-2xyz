@@ -1,6 +1,6 @@
 baseurl = "https://www.4-2.xyz"
 title = "4-2"
-theme = "mondrian"
+theme = "vec"
 languageCode = "en-us"
 paginate = 15
 
