@@ -9,10 +9,7 @@ paginate = 15
     name = "posts"
     url = "/post"
     weight = 1
-  [[menu.main]]
-    name = "sketches"
-    url = "/sketch"
-    weight = 2
+
 
 [params]
   Keywords = "wbearcorp, jeremy bunlon"
@@ -20,10 +17,5 @@ paginate = 15
   showHeader = true
   showTags = true
   debug = false
-  [params.colors]
-    post = "orangered"
-    posts = "gold"
-    page = "blue"
-    sketch = "limegreen"
 
   
