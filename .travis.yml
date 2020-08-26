@@ -4,7 +4,7 @@ install:
   - mv $TRAVIS_BUILD_DIR $HOME/src
   - export TRAVIS_BUILD_DIR=$HOME/src
   - cd $HOME/src
-  - go get -u github.com/gohugoio/hugo
+  - go get github.com/gohugoio/hugo
 script:
   - hugo
   - python --version
