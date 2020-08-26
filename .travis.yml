@@ -1,5 +1,10 @@
 language: go
-install: go get -u github.com/gohugoio/hugo
+install: 
+  - mkdir -p $HOME/src
+  - mv $TRAVIS_BUILD_DIR $HOME/src
+  - export TRAVIS_BUILD_DIR=$HOME/src/hugo
+  - cd $HOME/src/hugo
+  - go get -u github.com/gohugoio/hugo
 script:
   - hugo
   - python --version
