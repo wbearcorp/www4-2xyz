@@ -4,13 +4,6 @@ theme = "erblog"
 languageCode = "en-us"
 paginate = 15
 
-[menu]
-  [[menu.main]]
-    name = "posts"
-    url = "/post"
-    weight = 1
-
-
 [params]
   Keywords = "wbearcorp, jeremy bunlon"
   Description = "un site, et c'est deja bien"
