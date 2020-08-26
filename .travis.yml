@@ -1,6 +1,6 @@
 language: go
 go:
-  - 1.12.x
+  - master
 install:
   - mkdir -p $HOME/src
   - cd $HOME/src
