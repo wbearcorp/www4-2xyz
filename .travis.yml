@@ -14,6 +14,7 @@ script:
   - export AWS_ACCESS_KEY_ID=$AK
   - export AWS_SECRET_ACCESS_KEY=$SK
   - aws s3 sync public/ s3://www.4-2.xyz/ --delete
+  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_ID --paths "/*"
 
 notifications:
     email:
